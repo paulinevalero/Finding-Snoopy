@@ -1,0 +1,63 @@
+html{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+main{
+  position: relative;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+  
+#start-button{
+    font-size: 1.5rem;
+    background-color: rgb(228, 33, 33);
+    color: #fff;
+    padding: 15px 40px;
+    border: 0;
+    box-shadow: 10px;
+    border-radius: 10px;
+    margin: 20px 0;
+}
+
+/*Hacer una clase del div class intro
+ahí meto el background image url, es el fondo de pantalla principal 
+como si fuera una pagina 
+*/
+.intro{
+    position: absolute;
+    text-align: center;
+}
+.jugadores{
+  margin: 20px 80px; 
+}
+.intro img{
+  margin-bottom: 25px;
+  width: 400px;
+  height: 200px;
+}
+.jugadores input{
+  padding: 10px 30px;
+  margin: 20px 10px;
+  border-radius: 10px;
+  font-size: 1.5rem;
+  outline: none;
+  text-align: center;
+}
+.jugadores label{
+  font-size: 2rem;
+  margin-right: 10px;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+  
+}
+.jugadores img{
+  width: 60px;
+  height: 70px;
+}
+canvas{
+    border: 1px solid black;
+}
+ 

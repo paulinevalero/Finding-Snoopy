@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Finding Snoopy</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <main>
+        <div class="intro">
+            <img src="./images/logo-finding-snoopy.png" alt="Finding Snoopy">
+            <div class="jugadores">
+                <div>
+                    <label for="Jugador1">Jugador 1</label>
+                    <input class="jugador1" type="text" name="jugador1" placeholder="Charlie Brown">
+                    <img class="snoopy" src="./images/snoopy-izq.png" alt="snoopy-izq">
+                </div> 
+                <div>
+                    <label for="Jugaador2">Jugador 2</label>
+                    <input class="jugador2" type="text" name="jugador2" placeholder="Frankenstein">
+                </div>
+            </div>
+            <button id="start-button">Play</button>
+        </div>
+        
+        <div class="canvas-container">
+            <canvas width="900" height="600"></canvas>
+        </div>        
+    </main>
+    <script src="main.js"></script>
+</body>
+
+</html>
