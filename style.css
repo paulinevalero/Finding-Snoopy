@@ -22,11 +22,21 @@ main{
     border-radius: 10px;
     margin: 20px 0;
 }
-
-/*Hacer una clase del div class intro
-ahí meto el background image url, es el fondo de pantalla principal 
-como si fuera una pagina 
-*/
+#reload-button{
+    font-size: 1rem;
+    background-color: rgb(180, 29, 29);
+    color: #fff;
+    padding: 15px 40px;
+    border: 0;
+    box-shadow: 10px;
+    border-radius: 10px;
+    margin-top: 180px;
+    
+}
+.reload{
+    position: absolute;
+    text-align: center;
+}
 .intro{
     position: absolute;
     text-align: center;
@@ -34,7 +44,7 @@ como si fuera una pagina
 .jugadores{
   margin: 20px 80px; 
 }
-.intro img{
+.intro img:first-child{
   margin-bottom: 25px;
   width: 400px;
   height: 200px;
@@ -53,11 +63,13 @@ como si fuera una pagina
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
   
 }
-.jugadores img{
+.snoopy{
   width: 60px;
-  height: 70px;
+  height: 80px;
 }
-canvas{
-    border: 1px solid black;
+.snoopy-food{
+  width: 50px;
+  height: 30px;
 }
+
  
